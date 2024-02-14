@@ -7,7 +7,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
-const categories = ['All Photos', 'Individual Family Photos', 'Group Photos', 'Scenic Views'];
+const categories = ['all_photos', 'individual_family_photos', 'group_photos', 'scenic_views'];
 
 function TripDetailsPage( ) {
   const { tripId } = useParams();

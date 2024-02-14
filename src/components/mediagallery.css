@@ -1,0 +1,32 @@
+.media-gallery {
+    width: 100%;
+    background-color: black;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust as needed */
+    gap: 10px;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .image-container img:hover {
+    opacity: 0.8;
+  }
+   .img_preview {
+    background-size: cover;
+    height: 400px;
+    width:400px;
+   }
+  
